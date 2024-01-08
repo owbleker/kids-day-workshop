@@ -1,0 +1,54 @@
+* {
+	box-sizing: border-box;
+}
+
+body, html {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+	font-family: 'Bowlby One SC', sans-serif;
+}
+
+.header {
+	background-image: url('../images/nike-shoes.jpg');
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	height: 100%;
+}
+
+.header__overlay {
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.header__logo {
+	position: absolute;
+	left: 20px;
+	top: 20px;
+	max-width: 100px;
+}
+
+.header__container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	height: 100%;
+	max-width: 600px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.header__title {
+	font-weight: 700;
+	font-size: 60px;
+	color: white;
+	line-height: 1;
+}
+
+button {
+	background: none;
+	border: none;
+	outline: none;
+}

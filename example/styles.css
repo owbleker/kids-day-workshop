@@ -1,0 +1,25 @@
+body {
+    background-color: rgb(187, 187, 187);
+}
+
+h1 {
+    letter-spacing: 10px;
+}
+
+p {
+    font-size: 20px;
+    font-style: italic;
+    color: rgb(91, 102, 252);
+}
+
+ul li {
+    margin: 20px;
+}
+
+img {
+    max-width: 100px;
+}
+
+a { 
+    color: red;
+}

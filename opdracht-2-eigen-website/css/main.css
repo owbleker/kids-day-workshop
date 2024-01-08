@@ -1,0 +1,83 @@
+body {
+    font-family: "Helvetica", sans-serif;
+}
+
+header {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, orange 0%, salmon 100%);
+}
+
+.content {
+    padding: 30px;
+    margin-top: 10px;
+    background-color: rgb(249, 249, 249);
+    width: 100%;
+}
+
+.content-section {
+    display: flex;
+}
+
+.over-mij {
+    flex: 3;
+}
+
+.links {
+    flex: 1;
+}
+
+.links a {
+    display: block;
+}
+
+.afbeeldingen-galerij {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.afbeeldingen-galerij img {
+    max-width: 300px;
+    object-fit: cover;
+}
+
+.blok {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    margin-right: 100px;
+    background-color: blue;
+}
+
+.blok-1:hover {
+    background-color: orange;
+}
+
+.blok-2:hover {
+    transform: rotate(45deg);
+}
+
+.blok-3:hover {
+    transform: scale(1.5);
+}
+
+.blok-4:hover {
+    transform: skew(30deg);
+}
+
+.animatie {
+    transition: all 0.3s ease-in-out;
+}
+
+footer {
+    padding: 30px;
+    border-top: 1px solid grey;
+}

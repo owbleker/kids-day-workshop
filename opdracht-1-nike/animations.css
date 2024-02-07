@@ -1,13 +1,13 @@
-button {
-	background-color: purple;
-	padding: 20px;
-	border-radius: 3px;
-	min-width: 180px;
-	cursor: pointer;
+/* .scale {
+    transition: transform 250ms;
+}
+.scale:hover {
+    transform: scale(1.1);
 }
 
-.scale { transition: transform 250ms; }
-.scale:hover { transform: scale(1.1); }
-
-.flip { transition: transform 250ms; }
-.flip:hover { transform: rotateY(180deg); }
+.flip {
+    transition: transform 250ms;
+}
+.flip:hover {
+    transform: rotateY(180deg);
+} */

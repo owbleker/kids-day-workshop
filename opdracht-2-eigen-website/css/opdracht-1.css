@@ -1,0 +1,29 @@
+/* OPDRACHT 1 */
+
+/* Probeer hier wat styling toe te voegen aan de afbeelding. Zo kan je hier aangeven hoe breed de afbeelding moet zijn.
+Dit kunnen we aangeven in pixels.
+
+Voorbeeld:
+
+#hero img {
+  width: 300px; <-- Dit geeft aan dat de afbeelding altijd 300px breed moet zijn! 
+}
+
+Probeer dit zelf toe te voegen in het stukje hieronder. Kijk goed naar het voorbeeld!
+
+*/
+
+#hero img {
+    width: 300px;
+}
+
+/* Extra opdracht: Pas de grootte van de tekst aan. Als we de tekst van de paragraaf (p) willlen aanpassen, dan kunnen we dit doen door de volgende code toe te voegen:
+p { 
+  font-size: 20px; <-- Dit geeft aan dat de tekst 20px groot moet zijn! 
+}
+
+Probeer dit zelf toe te voegen in het stukje hieronder. Kijk goed naar het voorbeeld!
+*/
+
+p {
+}
